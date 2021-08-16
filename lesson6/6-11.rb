@@ -1,0 +1,7 @@
+menu = {"コーヒー" => 300, "カフェラテ" => 400}
+
+keys = []
+menu.each_key do |key|
+  keys.push(key)
+end
+p keys
